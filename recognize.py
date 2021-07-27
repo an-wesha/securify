@@ -20,11 +20,8 @@ def draw_boundary(img, classifier, scaleFactor, minNeighbors, color, text, clf):
 
         # Check for id of user and label the rectangle accordingly
         if id==1:
-            name.append('Anwesha')
-            cv2.putText(img, "Anwesha", (x, y-4), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 1, cv2.LINE_AA)
-        elif id==2:
-            name.append('Ayushman')
-            cv2.putText(img, "Ayushman", (x, y-4), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 1, cv2.LINE_AA)
+            name.append('Your Name')   #insert your name at this place and in the below line
+            cv2.putText(img, "Your Name", (x, y-4), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 1, cv2.LINE_AA)
         else:
             name.append('Unknown')
             cv2.putText(img, "Unknown", (x, y-4), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 1, cv2.LINE_AA)
