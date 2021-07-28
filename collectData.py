@@ -29,6 +29,8 @@ def detect(img, faceCascade, img_id):
     if len(coords) == 4:
         roi_img = img[coords[1]:coords[1]+coords[3], coords[0]:coords[0]+coords[2]]
         user_id = 1
+        #to add the data of another person, make this modification user_id = 2
+        #similarly you can add the data of multiple people by assigning user_id = 3, user_id = 4 and so on
         generate_dataset(roi_img, user_id, img_id)
 
     return img
