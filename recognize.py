@@ -3,7 +3,6 @@ import clx.xms
 import requests
 
 
-
 def draw_boundary(img, classifier, scaleFactor, minNeighbors, color, text, clf):
     # Converting image to gray-scale
     gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -54,11 +53,14 @@ while True:
     # Call method we defined above
     img, name = recognize(img, clf, faceCascade)
 
-    client = clx.xms.Client(service_plan_id='9805c602cfb247748e0207edc6669765', token='efd11ba2d4f248a9a25d478968241404')
+    #Open an account on Sinch and enter your service plan id and api token here
+    client = clx.xms.Client(service_plan_id='service_plan_id', token='token')
 
     create = clx.xms.api.MtBatchTextSmsCreate()
+    #Enter the senders number that has been shown on the Sinch platform
     create.sender = '447537455281'
-    create.recipients = {'917735740041'}
+    #Enter your number that you have provided on the Sinch platform
+    create.recipients = {'xxxxxx'}
 
     delimiter = ' '
     naming = delimiter.join(name)
