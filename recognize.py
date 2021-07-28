@@ -2,7 +2,6 @@ import cv2
 import clx.xms
 import requests
 
-
 def draw_boundary(img, classifier, scaleFactor, minNeighbors, color, text, clf):
     # Converting image to gray-scale
     gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -21,6 +20,7 @@ def draw_boundary(img, classifier, scaleFactor, minNeighbors, color, text, clf):
         if id==1:
             name.append('Your Name')   #insert your name at this place and in the below line
             cv2.putText(img, "Your Name", (x, y-4), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 1, cv2.LINE_AA)
+        #You can add more people in the same way by assigning id = 2 and so on. Make sure to feed their data by following step 3 through 5 again
         else:
             name.append('Unknown')
             cv2.putText(img, "Unknown", (x, y-4), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 1, cv2.LINE_AA)
