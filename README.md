@@ -12,7 +12,24 @@ Therefore, we have come up with the idea of SECURIFY, a “smart” home securit
 Along with this, there will be a real time face recognition system, wherein, the owner will receive alerts when someone is at his/her door. The face recognition system will identify known people and notify the owner accordingly.
 
 ### Instructions to Use the Code:
-#### 1. For the keypad operated door lock system using Arduino & IoT
+#### 1. For the keypad operated door lock system and alarm using Arduino
+**Step 1:** Download the SecurifyTest_.ino file.
+**Step 2:** Connect Arduino uno board to the computer.
+**Step 3:** Make the circuit connection as follows.
+![Screenshot (745)](https://user-images.githubusercontent.com/83718705/127437962-680a89df-0ba1-4b53-a414-9636b469f7c3.png)
+**Step 4:** If all the connections are  correct, then you should get the following result on lcd screen.
+![Screenshot (744)](https://user-images.githubusercontent.com/83718705/127438097-cfeea82a-ac3c-436b-80a7-0f295a049c3b.png)
+**Step 5:** Enter the password using the 4x4 keypad.
+**Step 6:** If you enter the wrong password once, you get another chance to enter the correct password.
+![Screenshot (753)](https://user-images.githubusercontent.com/83718705/127438322-6b3098ab-c73f-495b-80b0-c9da505d8cd5.png)
+![Screenshot (746)](https://user-images.githubusercontent.com/83718705/127438380-4852d562-1118-4c09-97f3-8ac53833727b.png)
+![Screenshot (747)](https://user-images.githubusercontent.com/83718705/127438424-74dd0b3f-bb8b-4fa7-b3ea-104b85547a90.png)
+**Step 7:** If you enter wrong password twice, then an alarm will go off.
+![Screenshot (748)](https://user-images.githubusercontent.com/83718705/127438500-4ca864d2-b423-4c91-a649-caff952ca111.png)
+**Step 8:** On entering the correct password, the lock is unlocked portrayed by the rotation of the servo motor in the circuit.
+![Screenshot (752)](https://user-images.githubusercontent.com/83718705/127438629-45ebdf49-91fa-4378-b2a1-a6bee717a30f.png)
+
+
 
 #### 2. For the Real time facial recognition system using Computer Vision.
 **Step 1:** Download all the remaining files in a single directory.
