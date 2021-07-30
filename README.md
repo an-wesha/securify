@@ -75,4 +75,8 @@ Note: If you want to add the data of one more person, then do the following chan
 
 <img src="https://user-images.githubusercontent.com/68744661/127272367-32cbfde4-0b69-41b5-8926-fb033b5f823b.png" width="400" height="400"> <img src="https://user-images.githubusercontent.com/68744661/127272832-fae25c61-c7de-4bf3-8da4-8128dd7603ae.jpg" width="200" height="400"> 
 
+<img src="https://user-images.githubusercontent.com/68744661/127604986-619a6c7f-223d-4bc2-80a4-6849f4633939.png" width="400" height="400"> <img src="https://user-images.githubusercontent.com/68744661/127605325-70d316d0-0b34-400a-a037-5fea198fa0ed.jpeg" width="200" height="400"> 
+
+
+
 
