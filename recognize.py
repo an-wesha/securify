@@ -8,7 +8,7 @@ def draw_boundary(img, classifier, scaleFactor, minNeighbors, color, text, clf):
     # detecting features in gray-scale image, returns coordinates, width and height of features
     features = classifier.detectMultiScale(gray_img, scaleFactor, minNeighbors)
     coords = []
-    name = []
+    name = ['Someone']
     # drawing rectangle around the feature and labeling it
     for (x, y, w, h) in features:
         cv2.rectangle(img, (x,y), (x+w, y+h), color, 2)
@@ -21,8 +21,8 @@ def draw_boundary(img, classifier, scaleFactor, minNeighbors, color, text, clf):
             name.append('Your Name')   #insert your name at this place and in the below line
             cv2.putText(img, "Your Name", (x, y-4), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 1, cv2.LINE_AA)
         #You can add more people in the same way by assigning id = 2 and so on. Make sure to feed their data by following step 3 through 5 again
+        
         else:
-            name.append('Unknown')
             cv2.putText(img, "Unknown", (x, y-4), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 1, cv2.LINE_AA)
         coords = [x, y, w, h]
 
@@ -62,8 +62,8 @@ while True:
     #Enter your number that you have provided on the Sinch platform
     create.recipients = {'xxxxxx'}
 
-    delimiter = ' '
-    naming = delimiter.join(name)
+    
+    naming = ' '.join(name)
     create.body = naming + ' is at your door'
 
 
