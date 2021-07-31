@@ -13,11 +13,10 @@ Along with this, there will be a real time face recognition system, wherein, the
 
 ### Instructions:
 #### 1. For the keypad operated door lock system and alarm using Arduino
-**Step 1:** Download the SecurifyTest_.ino file.
+**Step 1:** Download the SecurifyTest_.ino and index.zip file.
 
 **Step 2:** Make the circuit connection as follows
 <img src="https://user-images.githubusercontent.com/83718705/127437962-680a89df-0ba1-4b53-a414-9636b469f7c3.png" width="700" height="450">
-
 
 **Step 3:** Connect Arduino UNO board to the computer and upload the program to the Arduino UNO board. Make sure to select the correct board and port from the Arduino IDE. 
 
@@ -37,6 +36,7 @@ Along with this, there will be a real time face recognition system, wherein, the
 <img src="https://user-images.githubusercontent.com/83718705/127438500-4ca864d2-b423-4c91-a649-caff952ca111.png" width="700" height="450">
 
 **Step 8:** On entering the correct password, the lock is unlocked, portrayed by the rotation of the servo motor in the circuit.
+
 <img src="https://user-images.githubusercontent.com/83718705/127438629-45ebdf49-91fa-4378-b2a1-a6bee717a30f.png" width="700" height="450">
 
 #### 2. For the PIR based motion sensors.
