@@ -9,6 +9,8 @@ Nowadays, people go out to work early in the morning and come home late at night
 This increases the probability of thefts and breach of security.<p></p>
 Therefore, we have come up with the idea of SECURIFY, a “smart” home security system, which will use electronic keypad-based smart locking system instead of traditional mechanical locks for homes which can be opened only with a correct password. Unauthorised access or entering the wrong password will trigger an alarm, thus making people aware that someone is trying to enter the house without permission. 
 
+We will also put PIR (Passive Infrared Sensor) motion sensors near the windows so that even if burglars try to enter the house through the windows at night, the alarm will go off thus making neighbours and security guards aware so that appropriate action can be taken.
+
 Along with this, there will be a real time face recognition system, wherein, the owner will receive alerts when someone is at his/her door. The face recognition system will identify known people and notify the owner accordingly.
 
 ### Instructions:
@@ -44,6 +46,7 @@ Along with this, there will be a real time face recognition system, wherein, the
 **Step 1:** Download the Securify_MotionSensor.ino file.
 
 **Step 2:** Make the circuit connection as follows
+
 ![image](https://user-images.githubusercontent.com/83718705/127744724-58de1baf-8e33-43be-9f95-e84ad2e81b87.png)
 
 **Step 3:** Connect Arduino UNO board to the computer and upload the program to the Arduino UNO board. Make sure to select the correct board and port from the Arduino IDE.
