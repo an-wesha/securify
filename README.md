@@ -39,9 +39,20 @@ Along with this, there will be a real time face recognition system, wherein, the
 
 <img src="https://user-images.githubusercontent.com/83718705/127438629-45ebdf49-91fa-4378-b2a1-a6bee717a30f.png" width="700" height="450">
 
+#### 2. For the PIR based motion sensors.
+
+**Step 1:** Download the Securify_MotionSensor.ino file.
+
+**Step 2:** Make the circuit connection as follows
+![image](https://user-images.githubusercontent.com/83718705/127744724-58de1baf-8e33-43be-9f95-e84ad2e81b87.png)
+
+**Step 3:** Connect Arduino UNO board to the computer and upload the program to the Arduino UNO board. Make sure to select the correct board and port from the Arduino IDE.
+
+**Step 4:** Whenever motion is detected the buzzer goes off signifying that a burglar is trying to enter.
+![image](https://user-images.githubusercontent.com/83718705/127744771-4ca265af-e3e6-44b2-a3d8-a1436516c7b8.png)
 
 
-#### 2. For the Real time facial recognition system using Computer Vision.
+#### 3. For the Real time facial recognition system using Computer Vision.
 **Step 1:** Download all the remaining files in a single directory.
 
 **Step 2:** Install the OpenCV package on your local system. (open command prompt and type "pip install opencv-python" or "pip install opencv-contrib-python")
